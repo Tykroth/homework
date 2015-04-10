@@ -22,7 +22,7 @@
 		*/
 
 		if (!file_exists(VISITOR_COUNT_FILE) || !file_exists(IP_LOG_FILE)){
-			return "error code 404, file not found.";
+			echo "error code 404, file not found.";
 		}
 
 		if(in_array($current, $readablePrevious)){
