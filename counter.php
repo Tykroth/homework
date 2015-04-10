@@ -40,7 +40,7 @@
 			}
 
 			echo "You are visitor number $visitorNumber!";
-		}		
+		}
 		?>
 	</body>
 </html>
